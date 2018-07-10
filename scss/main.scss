@@ -8,6 +8,47 @@ a:hover {
     color: $link_hover_color !important;
 }
 
+.container-fluid {
+    padding: 0 !important;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 670px;
+}
+
+#web_title {
+    position: absolute;
+    top: calc(80%);
+    %p {
+        position: relative;
+    }
+    > p {
+        @extend %p;
+        font-size: 2.3em;
+        letter-spacing: 1em;
+        line-height: 0;
+    }
+
+    p > span {
+        letter-spacing: normal;
+    }
+
+    div p {
+        @extend %p;
+        font-size: 1em;
+        letter-spacing: 0.6px;
+        background-color: #1c1c1c;
+        color: #0d7ecc;
+        display: inline-block;
+    }
+
+}
+
+
 nav {
     background-color: $nav; 
     a {
@@ -16,3 +57,14 @@ nav {
     }
 }
 
+@media (max-width: 489px) {
+    #web_title {
+        > p {
+            letter-spacing: 0.38em;
+        }
+        div p {
+            line-height: 1em;
+        }
+        
+    }
+}

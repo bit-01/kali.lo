@@ -1,0 +1,58 @@
+a:hover {
+  text-decoration: none;
+  color: #a4a4a4 !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+header {
+  background-image: url("../img/header.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 670px;
+}
+
+#web_title {
+  position: absolute;
+  top: calc(80%);
+}
+#web_title div p, #web_title > p {
+  position: relative;
+}
+#web_title > p {
+  font-size: 2.3em;
+  letter-spacing: 1em;
+  line-height: 0;
+}
+#web_title p > span {
+  letter-spacing: normal;
+}
+#web_title div p {
+  font-size: 1em;
+  letter-spacing: 0.6px;
+  background-color: #1c1c1c;
+  color: #0d7ecc;
+  display: inline-block;
+}
+
+nav {
+  background-color: #e9e9e9b3;
+}
+nav a {
+  font-size: 1.5em;
+  color: #8dcbf0 !important;
+}
+
+@media (max-width: 489px) {
+  #web_title > p {
+    letter-spacing: 0.38em;
+  }
+  #web_title div p {
+    line-height: 1em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
