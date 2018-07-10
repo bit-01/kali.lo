@@ -1,0 +1,18 @@
+$link_color: #8dcbf0;
+$link_hover_color: #a4a4a4;
+$nav: #e9e9e9b3;
+
+
+a:hover {
+    text-decoration: none;
+    color: $link_hover_color !important;
+}
+
+nav {
+    background-color: $nav; 
+    a {
+        font-size: 1.5em;
+        color: $link_color !important;
+    }
+}
+
