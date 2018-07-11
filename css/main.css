@@ -7,7 +7,7 @@ a:hover {
   padding: 0 !important;
 }
 
-header {
+.main_header {
   background-image: url("../img/header.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
