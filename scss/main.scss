@@ -48,6 +48,17 @@ header {
 
 }
 
+.card-body {
+    padding: 0 !important;
+}
+
+.card-footer {
+    padding: 0 !important;
+    button {
+        width: 100%;
+    }
+}
+
 
 nav {
     background-color: $nav; 
@@ -56,6 +67,15 @@ nav {
         color: $link_color !important;
     }
     box-shadow: #000 0 0 5px 0.1px;
+}
+
+section {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.row {
+    margin: auto;
 }
 
 @media (max-width: 489px) {
