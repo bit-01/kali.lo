@@ -8,3 +8,6 @@ Website Map:
 - Development: some information about kali's development.
 - Tools: a list of some the tools integrated into kali.
 - Various articles about kali (randomly chosen).
+
+Check it out at:
+https://bit-01.github.io/kali.lo/
