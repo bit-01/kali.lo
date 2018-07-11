@@ -78,6 +78,10 @@ section {
     margin: auto;
 }
 
+.table-hover tbody tr:hover {
+    background-color: #a5a5a5 !important;
+}
+
 @media (max-width: 489px) {
     #web_title {
         > p {
