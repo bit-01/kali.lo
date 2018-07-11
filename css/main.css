@@ -83,5 +83,10 @@ section {
     line-height: 1em;
   }
 }
+@media (max-width: 997px) {
+  .hide_col {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

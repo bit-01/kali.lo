@@ -97,3 +97,9 @@ section {
         
     }
 }
+
+@media (max-width: 997px) {
+    .hide_col {
+        display: none;
+    }
+}
