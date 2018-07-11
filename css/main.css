@@ -1,6 +1,6 @@
 a:hover {
   text-decoration: none;
-  color: #a4a4a4 !important;
+  color: #00ccff !important;
 }
 
 .container-fluid {
@@ -39,11 +39,12 @@ header {
 }
 
 nav {
-  background-color: #e9e9e9b3;
+  background-color: #e9e9e900;
+  box-shadow: #000 0 0 5px 0.1px;
 }
 nav a {
   font-size: 1.5em;
-  color: #8dcbf0 !important;
+  color: #1c1c1c !important;
 }
 
 @media (max-width: 489px) {

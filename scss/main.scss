@@ -1,7 +1,7 @@
-$link_color: #8dcbf0;
-$link_hover_color: #a4a4a4;
-$nav: #e9e9e9b3;
-
+$link_color: #1c1c1c;
+$link_hover_color: rgb(0, 204, 255);
+$nav: #e9e9e900;
+$font: #0d7ecc;
 
 a:hover {
     text-decoration: none;
@@ -41,8 +41,8 @@ header {
         @extend %p;
         font-size: 1em;
         letter-spacing: 0.6px;
-        background-color: #1c1c1c;
-        color: #0d7ecc;
+        background-color: $link_color;
+        color: $font;
         display: inline-block;
     }
 
@@ -55,6 +55,7 @@ nav {
         font-size: 1.5em;
         color: $link_color !important;
     }
+    box-shadow: #000 0 0 5px 0.1px;
 }
 
 @media (max-width: 489px) {
