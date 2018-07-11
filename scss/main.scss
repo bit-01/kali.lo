@@ -5,7 +5,7 @@ $font: #0d7ecc;
 
 a:hover {
     text-decoration: none;
-    color: $link_hover_color !important;
+    color: $link_color !important;
 }
 
 .container-fluid {
@@ -64,7 +64,10 @@ nav {
     background-color: $nav; 
     a {
         font-size: 1.5em;
-        color: $link_color !important;
+        color: $link_hover_color !important;
+    }
+    a:hover {
+        color: rgb(116, 234, 255) !important;
     }
     box-shadow: #000 0 0 5px 0.1px;
 }
