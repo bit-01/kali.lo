@@ -1,4 +1,4 @@
-#Kali.Lo
+# Kali.Lo
 
 A website about a debian-based linux distribution called Kali Linux.
 
