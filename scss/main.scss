@@ -62,11 +62,14 @@ header {
 
 nav {
     background-color: $nav; 
-    a {
+    a, button {
         font-size: 1.5em;
         color: $link_hover_color !important;
     }
-    a:hover {
+    button {
+        font-size: 2em !important;
+    }
+    a:hover, button:hover {
         color: rgb(116, 234, 255) !important;
     }
     box-shadow: #000 0 0 5px 0.1px;
@@ -105,4 +108,12 @@ section {
     .hide_col {
         display: none;
     }
+}
+
+@media (max-width: 990px) {
+    
+    .navbar {
+        background: linear-gradient(90deg ,#105fac, #0c86cf, #105fac);
+    }
+    
 }
