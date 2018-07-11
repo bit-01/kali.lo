@@ -56,7 +56,7 @@ a:hover {
 .card-footer {
   padding: 0 !important;
 }
-.card-footer button {
+.card-footer a {
   width: 100%;
 }
 
