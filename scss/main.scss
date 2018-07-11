@@ -82,6 +82,10 @@ section {
     background-color: #a5a5a5 !important;
 }
 
+.col-md-3.col-sm-2 a > img {
+    width: 100%;
+}
+
 @media (max-width: 489px) {
     #web_title {
         > p {
